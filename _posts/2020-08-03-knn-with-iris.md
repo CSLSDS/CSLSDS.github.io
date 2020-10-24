@@ -2,8 +2,20 @@
 layout: post
 title: "DIY" K Nearest Neighbors Classification of iris species
 subtitle: in which we apply our aglorithmic savvy to a homespun KNN class
+gh-repo: cslsds/knn
+gh-badge:
+  - star
+  - fork
+  - follow
+tags:
+  - data
+comments: true
+published: true
+date: '2020-08-03'
+image: >-
+  https://cdn.apartmenttherapy.info/image/upload/v1558855909/at/archive/9392792606a1b4f72b30a3eee5f9b1267124bcb3.gif
 ---
-
+****
 
 # "DIY" K Nearest Neighbors Classification of iris species
 ## ...in which we apply our aglorithmic savvy to a homespun KNN class to guess what kind of flower we're looking at!
