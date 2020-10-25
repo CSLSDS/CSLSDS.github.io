@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Build a Team; Build an App 
-subtitle: in which we reiterate: "explicit over implicit" 
+title: Build a Team... Build an App 
+subtitle: in which we reiterate: explicit over implicit 
 gh-repo: Lambda-School-Labs/Labs27-C-Citrics-DS
 gh-badge:
   - star
