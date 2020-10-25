@@ -1,9 +1,9 @@
 ---
 layout: post
 title: >-
-    "Build a Team; Build an App"
+    Build a Team; Build an App
 subtitle: >-
-    "in which we reiterate: "explicit over implicit" 
+    in which we reiterate: "explicit over implicit" 
 gh-repo: Lambda-School-Labs/Labs27-C-Citrics-DS
 gh-badge:
   - star
@@ -30,7 +30,7 @@ image: >-
    
    The first step to tackle to begin to give our roadmap to achievement it's shape and structure was **to break down the vision of the end product into discrete, manageable tasks.**
    
-   ## Trello to the rescue!
+## Trello to the rescue!
    
 <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog00.png" width = "600" />  
    We made significant use of a Trello board to organize, track, and communicate our efforts with one another.  
@@ -42,19 +42,19 @@ image: >-
    
    <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog01.png" width = "600" />  
    
-   ### Use of asynchronous organizational communication was absolutely VITAL for our team process; 
+### Use of asynchronous organizational communication was absolutely VITAL for our team process; 
    ...with many data scientists on the hunt for sources, and two separate web teams, each comprised of folks with different specializations in the stack, we relied heavily on Trello, Slack, GitHub, and multiple Agile-style standups every day through Zoom, both with our respective teams, and as a larger group developing on Citrics.  
    
    ***This workflow enabled us to quickly iterate***, and gave us **tighter feedback loops** to see where we could improve our flows, or pinpoint issues as they came up, ***before*** they became major roadblocks for the project.  
    
-   ## The 'meat' of the Data team's contributions  
+## The 'meat' of the Data team's contributions  
         
    While the essential *task* was clear, the *method* of arriving at our delivery was open-ended.  We worked together to determine a simple architecture, and to check in with our Web support teams to clarify what their expectations were as we moved through the developent process.  
    We developed iteratively, with the first iteration being a simple, scraped, single-source .csv that the API could import and deliver, to give the web team a starting point from which to begin development. 
    
    As the project unfolded, we came to a conclusion to serve an API endpoint that returns individual city entries by a unique ID number, which would eventually be drawn from a PosgreSQL relational database hosted by the AWS Relational Database Service.  This API was built with FastAPI, Docker, and hosted through AWS Elastic Beanstalk, routed through SSL also provided by AWS Route 53.  
    
-   #### We discovered that sourcing some features were more complex than others: 
+#### We discovered that sourcing some features were more complex than others: 
    - ...while we attempted to leverage several APIs, we found many had paywalls, request limitations on frequency and size, and other unique attributes we had to either account for, or give up on that source as viable.  We learned a lot about polite webcrawling, and functionalizing our requests to ensure reproduceability.  
 
 - We also found that there were many features of cities that were ***required*** for us to be able to merge and collect the appropriate data: numerous sources were not granular at the city level, so we needed to base our merging on the **county**, **zipcode**, **coordinates**, and even zoom out as far as state-level to get the metrics we were seeking.   
@@ -71,7 +71,7 @@ image: >-
 
 In the end, the backend for web found themselves able to tweak formatting as they saw fit, and our struggle to understand their needs were not pivotal to the success of our project, but we found many useful workarounds and tricks to format and reformat as we found a need, and this brought us all to a more well-rounded position as developers.  
    
-   ## The Big Payoff
+## The Big Payoff
    <img src="https://raw.githubusercontent.com/CSLSDS/lljournal/main/labsblog03.png" width="400"/>  
    
   As our tenure on this project came to a close, we found ourselves with a generous database, with both current and historical context, consistently delivered to multiple web teams to serve to users as they saw fit.    
@@ -83,7 +83,7 @@ In the end, the backend for web found themselves able to tweak formatting as the
   
   Users can then search for a second city for comparison, and it's details will appear along with the previously displayed information for the first city and national average; this can be done for up to three cities to compare against national averages simultaneously.  (There are also additional city stats available in the sidebar containing cities being compared.)  
 
-  ## The Future of Citrics
+## The Future of Citrics
   Features we have discussed but have not built in to the project are:
   - providing simple predictions about what the cities will look like in the future, based on the gathered historical precedents. 
   - drawing the data gathered from APIs in a way that keeps them updated as new data becomes available (this is especially useful and relevant for high-frequency measurements, such as COVID-19 case statistics, which are updated daily.)
