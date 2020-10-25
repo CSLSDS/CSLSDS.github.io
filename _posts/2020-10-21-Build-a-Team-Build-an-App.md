@@ -1,8 +1,8 @@
 ---
 layout: post
-title: title
-subtitle: subtitle
-gh-repo: cslsds/cslsds
+title: Build a Team; Build an App 
+subtitle: in which we reiterate: "explicit over implicit" 
+gh-repo: Lambda-School-Labs/Labs27-C-Citrics-DS
 gh-badge:
   - star
   - fork
