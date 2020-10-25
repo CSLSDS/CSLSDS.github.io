@@ -1,7 +1,9 @@
 ---
 layout: post
-title: Build a Team... Build an App 
-subtitle: in which we reiterate\: explicit over implicit 
+title: >- 
+	Build a Team; Build an App
+subtitle: >- 
+        in which we reiterate: "explicit over implicit" 
 gh-repo: Lambda-School-Labs/Labs27-C-Citrics-DS
 gh-badge:
   - star
@@ -13,10 +15,9 @@ comments: true
 published: true
 date: '2020-10-21'
 image: >-
-  https://github.com/clslsds/cslsds.github.io/blob/master/img/citrics.png?raw=true 
+  https://raw.githubusercontent.com/CSLSDS/CSLSDS.github.io/master/img/citrics.png
 ---
 ****
-
 # Build a Team, Build an App
 
    In the course of the journey through Lambda School's Data Science program, I had the great fortune to build an application with not one, but **three** phenomenal teams; one specific to data science (the one I was a member of) and two great web teams.  
