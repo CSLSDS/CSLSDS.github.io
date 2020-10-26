@@ -12,7 +12,7 @@ tags:
 comments: true
 published: true
 date: '2020-03-06'
-image: >-
+thumbnail-image: >-
   https://apod.nasa.gov/apod/image/0310/galaxies_sdss_big.jpg
 ---
 ****
