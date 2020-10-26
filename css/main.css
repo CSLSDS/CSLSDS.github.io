@@ -435,7 +435,7 @@ footer .theme-by {
   .post-image {
     width: 100%;
     text-align: center;
-    margin-top: -30;
+    margin-top: 0;
     float: left;
   }
 }
