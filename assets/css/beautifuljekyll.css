@@ -22,12 +22,12 @@ body {
   {% endif %}
 }
 p {
-  line-height: 1.5;
+  line-height: 1;
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+  font-weight: 500;
   line-height: 1.1;
 }
 h1 {
@@ -123,7 +123,7 @@ img {
 
 .navbar-custom {
   background-color: {{ site.navbar-col | default: "#EAEAEA" }};
-  border-bottom: 1px solid {{ site.navbar-border-col | default: "#DDDDDD" }};
+  border-bottom: 1px solid {{ site.navbar-border-col | default: "#150038" }};
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   {% if site.navbar-img %}
     background-image: url({{ site.navbar-img | relative_url }});
@@ -142,7 +142,7 @@ img {
 }
 
 .navbar-custom .navbar-brand {
-  line-height: 1.5;
+  line-height: 1;
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
   font-size: 1.125rem;
@@ -325,7 +325,7 @@ img {
 }
 
 .navbar-custom .avatar-container .avatar-img-border {
-  width: 100%;
+  width: 150%;
   margin-left: -50%;
   {% unless site.round-avatar == false %}
     border-radius: 50%;
@@ -335,7 +335,7 @@ img {
   {% endunless %}
 }
 .navbar-custom .avatar-container .avatar-img {
-  width: 100%;
+  width: 150%;
   {% unless site.round-avatar == false %}
     border-radius: 50%;
   {% endunless %}
@@ -444,7 +444,7 @@ footer .footer-custom-content {
 .post-preview a {
   text-decoration: none;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: {{ site.text-col | default: "#404040" }};
+  color: {{ site.text-col | default: "#CC8D8D" }};
 }
 
 .post-preview a:focus,
@@ -464,7 +464,7 @@ footer .footer-custom-content {
 }
 .post-preview .post-meta,
 .post-heading .post-meta {
-  color: #808080;
+  color: #CC8D8D;
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
@@ -808,12 +808,12 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #666666;
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #999999;
 }
 table tr th {
   font-weight: bold;
