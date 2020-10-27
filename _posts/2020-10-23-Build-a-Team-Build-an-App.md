@@ -15,7 +15,7 @@ comments: true
 published: true
 date: '2020-10-23'
 cover-img: >-
-  https://raw.githubusercontent.com/CSLSDS/CSLSDS.github.io/master/img/citrics.png
+  https://raw.githubusercontent.com/CSLSDS/CSLSDS.github.io/master/assets/img/citrics_header.png
 thumbnail-img: >-
   https://raw.githubusercontent.com/CSLSDS/CSLSDS.github.io/master/img/citrics.png
 ---
