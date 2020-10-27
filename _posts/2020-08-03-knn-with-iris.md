@@ -13,7 +13,7 @@ comments: true
 published: true
 date: '2020-08-03'
 cover-img: >-
-  https://cdn.apartmenttherapy.info/image/upload/v1558855909/at/archive/9392792606a1b4f72b30a3eee5f9b1267124bcb3.gif
+  https://i.makeagif.com/media/8-18-2013/HFeBkA.gif
 thumbnail-img: >-
   https://cdn.apartmenttherapy.info/image/upload/v1558855909/at/archive/9392792606a1b4f72b30a3eee5f9b1267124bcb3.gif
 ---
