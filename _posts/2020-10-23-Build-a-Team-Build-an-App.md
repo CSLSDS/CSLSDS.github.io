@@ -62,9 +62,9 @@ thumbnail-img: >-
   
    We developed iteratively, with the first iteration being a simple, scraped, single-source .csv that the API could import and deliver, to give the web team a starting point from which to begin development. 
    
-   As the project unfolded, we came to a conclusion to serve an API endpoint that returns individual city entries by a unique ID number, which would eventually be drawn from a PosgreSQL relational database hosted by the AWS Relational Database Service.  This API was built with FastAPI, Docker, and hosted through AWS Elastic Beanstalk, routed through SSL also provided by AWS Route 53.  
+   As the project unfolded, we came to a conclusion to serve an API endpoint that returns individual city entries by a unique ID number, which would eventually be drawn from a PostgreSQL relational database hosted by the AWS Relational Database Service.  This API was built with FastAPI, Docker, and hosted through AWS Elastic Beanstalk, routed through SSL also provided by AWS Route 53.  
    
-#### We discovered that sourcing some features were more complex than others: 
+### We discovered that sourcing some features were more complex than others: 
   
    - ...while we attempted to leverage several APIs, we found many had paywalls, request limitations on frequency and size, and other unique attributes we had to either account for, or give up on that source as viable.  We learned a lot about polite webcrawling, and functionalizing our requests to ensure reproduceability.  
 
@@ -73,7 +73,7 @@ thumbnail-img: >-
   
 - We had also hoped to find historical, time-series data on as many of our features as possible, to enable more robust visualization as well as prepare for potential predictions in the future.  This added a lot of complexity and legwork to our gathering process, and made formatting the data we serve a much more nebulous task...   
 
-####  ...We found ourselves uncertain about datatypes and expectations of our web team, based on the subtle nuances of difference between JavaScript Object Notation ([JSON](https://en.wikipedia.org/wiki/JSON)) and [Python's dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), both of which are known more broadly as "associative arrays".  
+###  ...We found ourselves uncertain about datatypes and expectations of our web team, based on the subtle nuances of difference between JavaScript Object Notation ([JSON](https://en.wikipedia.org/wiki/JSON)) and [Python's dictionaries](https://docs.python.org/3/tutorial/datastructures.html#dictionaries), both of which are known more broadly as "associative arrays".  
   
    - This data structure was "KEY" (pun intended) in formatting our relational information while keeping those relationships explicit, as we served individual "rows" or entries per-city, which, without their original relational context, could be really annoying to work with while designing for the web team.  (Think asking about Peoria and getting "Peoria","IL",9,245,283994,False,02831,"EST",983,... etc) Associative arrays are similar to sequences, but instead of using positional indexing, the values are stored and retrieved with a unique key; this relationship is often described as "key:value pairs", where in our case the keys are the name of the "column", the label for the attribute, and the values are the individual measurements of that attribute, such that an example key:value pair might look like "statename": "Kentucky".  
    
